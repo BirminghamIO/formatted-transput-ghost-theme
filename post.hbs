@@ -65,38 +65,7 @@
           })();
         </script>
     
-    
-    
-        {{#author}}
+    </footer>
 
-            {{#if image}}
-            <a class="author-image" style="background-image: url({{image}})" href="{{url}}"></a>
-            {{/if}}
-
-            <h4 id="author-name"><a href="{{url}}">{{name}}</a></h4>
-
-            <p id="author-bio">
-            {{#if bio}}
-                {{bio}}
-            {{else}}
-                Read <a href="{{url}}">more posts</a> by this author.
-            {{/if}}
-            </p>
-
-            <div class="author-meta">
-                {{#if location}}
-                    <span class="author-location">{{location}}</span>
-                {{/if}}
-                    
-                {{#if website}}
-                    <span class="author-link"><a href="{{website}}">{{website}}</a></span>
-                {{/if}}
-            </div>
-
-        {{/author}}           
-
-        </footer>
-
-    </article>
 </div>
 {{/post}}
