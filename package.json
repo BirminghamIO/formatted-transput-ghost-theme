@@ -1,13 +1,13 @@
 {
-  "name": "MaterialShowcase",
-  "title": "Material Showcase",
-  "author": "Vincent De Feo",
-  "copyright": "Vincent De Feo",
+  "name": "FormattedTransput",
+  "title": "Formatted Transput",
+  "author": "Daniel Hollands (and Vincent De Feo)",
+  "copyright": "Daniel Hollands (and Vincent De Feo)",
   "license": "GNU GPL V2",
   "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ghzmdr/material-showcase-ghost-theme"
+    "url": "git://github.com/BirminghamIO/formatted-transput-ghost-theme"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
